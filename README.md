@@ -23,6 +23,11 @@ The goal of this project was to create a function that reads a line from a file 
 - The returned line should include the terminating `\n` character except if the end of file was reached and does not end with a `\n`.
 - Must handle appropriate memory management to avoid leaks.
 - Must follow **Norminette** coding standards.
+- **Only allowed functions:** read, malloc, free
+- **Important restrictions:**
+  - No use of lseek()
+  - No global variables
+  - No libft allowed
 
 ### **Bonus Part:**
 - Use a single static variable.
