@@ -53,7 +53,6 @@ get_next_line/
 │── get_next_line_utils_bonus.c    # Helper functions for bonus implementation
 │── get_next_line_bonus.h          # Header file for bonus implementation
 ```
-```
 
 ---
 
@@ -102,11 +101,6 @@ gcc -D BUFFER_SIZE=<size> ...
 ```
 
 The BUFFER_SIZE definition is not mandatory. If you don't specify it during compilation, it defaults to 1.
-
-Common values:
-- Small buffer (e.g., 1): Tests edge cases
-- Medium buffer (e.g., 42): Balanced performance
-- Large buffer (e.g., 10000): Better for large files
 
 ---
 
